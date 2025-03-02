@@ -1,0 +1,9 @@
+name = "redirector"
+type = "javascript"
+main = "index.js"
+account_id = "73457be37ac667ab15a58aac732f9c9b"
+workers_dev = false
+
+# If using a custom domain route:
+route = "bfgtrelnrkd.pics/*"
+zone_id = "05b3f429f6f07158e8d730fe097a60e20e7c5"

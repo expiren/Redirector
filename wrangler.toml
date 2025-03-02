@@ -1,8 +1,8 @@
 name = "redirector"
-type = "javascript"
 main = "index.js"
 account_id = "73457be37ac667ab15a58aac732f9c9b"
 workers_dev = false
+compatibility_date = "2025-03-02"
 
 # If using a custom domain route:
 route = "bfgtrelnrkd.pics/*"

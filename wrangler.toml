@@ -1,5 +1,5 @@
 name = "redirector"
-main = "index.html"
+main = "index.js"
 account_id = "73457be37ac667ab15a58aac732f9c9b"
 workers_dev = false
 compatibility_date = "2025-03-02"

